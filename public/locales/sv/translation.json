@@ -2,5 +2,12 @@
   "greeting": "Hej världen!",
   "english": "Engelska",
   "swedish": "Svenska",
-  "german": "Tyska"
+  "german": "Tyska",
+  "monday": "måndag",
+  "tuesday": "tisdag",
+  "wednesday": "onsdag",
+  "thursday": "torsdag",
+  "friday": "fredag",
+  "saturday": "lördag",
+  "sunday": "söndag"
 }

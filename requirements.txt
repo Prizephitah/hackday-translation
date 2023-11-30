@@ -1,0 +1,3 @@
+fastapi~=0.104.1
+i18nice~=0.12
+uvicorn~=0.15.0
