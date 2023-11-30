@@ -1,6 +1,7 @@
 {
   "name": "translation",
   "version": "1.0.0",
+  "license": "MIT",
   "dependencies": {
     "i18next": "^23.7.7",
     "i18next-http-backend": "^2.4.2",
