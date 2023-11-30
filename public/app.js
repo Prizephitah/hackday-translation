@@ -15,4 +15,16 @@ await i18next
         }
     });
 
-document.getElementById('greeting').innerHTML = i18next.t('greeting');
+function loadTranslations() {
+    document.querySelectorAll('[data-i18n]').forEach((element) => {
+        element.innerHTML = i18next.t(element.dataset.i18n);
+    });
+}
+
+const languageSelect = document.getElementById('language');
+languageSelect.value = i18next.language;
+languageSelect.addEventListener('change', async (event) => {
+    await i18next.changeLanguage(event.target.value).then(() => { loadTranslations()});
+});
+
+loadTranslations();

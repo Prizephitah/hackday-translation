@@ -1,3 +1,6 @@
 {
-  "greeting": "Hej världen!"
+  "greeting": "Hej världen!",
+  "english": "Engelska",
+  "swedish": "Svenska",
+  "german": "Tyska"
 }
