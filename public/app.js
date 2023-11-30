@@ -4,7 +4,7 @@ import Backend from '../node_modules/i18next-http-backend/esm/index.js';
 await i18next
     .use(Backend)
     .init({
-        lng: 'en',
+        lng: localStorage.getItem('language') || 'en',
         supportedLngs: ['en', 'de', 'sv'],
         fallbackLng: 'en',
         debug: true,
@@ -24,7 +24,10 @@ function loadTranslations() {
 const languageSelect = document.getElementById('language');
 languageSelect.value = i18next.language;
 languageSelect.addEventListener('change', async (event) => {
-    await i18next.changeLanguage(event.target.value).then(() => { loadTranslations()});
+    await i18next.changeLanguage(event.target.value).then(() => {
+        localStorage.setItem('language', event.target.value);
+        loadTranslations()
+    });
 });
 
 loadTranslations();
