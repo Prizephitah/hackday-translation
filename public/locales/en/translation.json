@@ -9,5 +9,7 @@
   "thursday": "Thursday",
   "friday": "Friday",
   "saturday": "Saturday",
-  "sunday": "Sunday"
+  "sunday": "Sunday",
+  "today-is": "Today is",
+  "last-updated": "Last updated"
 }

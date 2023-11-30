@@ -17,7 +17,7 @@ await i18next
 
 function loadTranslations() {
     document.querySelectorAll('[data-i18n]').forEach((element) => {
-        element.innerHTML = i18next.t(element.dataset.i18n);
+        element.textContent = i18next.t(element.dataset.i18n);
     });
 }
 
@@ -31,3 +31,8 @@ languageSelect.addEventListener('change', async (event) => {
 });
 
 loadTranslations();
+
+const response = await fetch("http://localhost:8000/today/?language=" + i18next.language);
+const dayMessage = await response.json();
+document.getElementById('day-name').textContent = dayMessage.day;
+document.getElementById('last-updated').textContent = dayMessage.date;

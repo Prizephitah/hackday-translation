@@ -9,5 +9,7 @@
   "thursday": "torsdag",
   "friday": "fredag",
   "saturday": "lördag",
-  "sunday": "söndag"
+  "sunday": "söndag",
+  "today-is": "Idag är det",
+  "last-updated": "Senast uppdaterad"
 }
