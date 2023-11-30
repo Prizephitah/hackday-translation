@@ -13,5 +13,6 @@
   "today-is": "Today is",
   "last-updated": "Last updated",
   "update": "Update",
-  "selected-language": "Selected language"
+  "selected-language": "Selected language",
+  "fetched-with-locale": "Fetched with the locale"
 }

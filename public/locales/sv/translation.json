@@ -13,5 +13,6 @@
   "today-is": "Idag är det",
   "last-updated": "Senast uppdaterad",
   "update": "Uppdatera",
-  "selected-language": "Valt språk"
+  "selected-language": "Valt språk",
+  "fetched-with-locale": "Hämtad med lokaliteten"
 }

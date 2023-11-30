@@ -39,8 +39,9 @@ loadTranslations();
 async function loadDay() {
     const response = await fetch("http://localhost:8000/today/?language=" + i18next.language);
     const dayMessage = await response.json();
-    document.getElementById('day-name').textContent = dayMessage.day;
+    document.getElementById('day-name').value = dayMessage.day;
     document.getElementById('last-updated').textContent = dayMessage.date;
+    document.getElementById('fetched-with-locale').textContent = dayMessage.language;
 }
 document.getElementById('load-day').addEventListener('click', loadDay);
 

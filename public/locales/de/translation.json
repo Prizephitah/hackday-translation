@@ -1,5 +1,6 @@
 {
   "greeting": "Hallo Welt!",
   "last-updated": "Zuletzt aktualisiert",
-  "selected-language": "Ausgewählte Sprache"
+  "selected-language": "Ausgewählte Sprache",
+  "fetched-with-locale": "Abgerufen mit dem Gebietsschema"
 }
