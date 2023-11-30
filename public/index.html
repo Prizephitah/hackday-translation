@@ -8,13 +8,17 @@
 <body>
     <h1 id="greeting" data-i18n="greeting"></h1>
     <p>
+        <span data-i18n="selected-language"> </span>
+        <select id="language">
+            <option value="en" data-i18n="english">English</option>
+            <option value="sv" data-i18n="swedish">Svenska</option>
+            <option value="de" data-i18n="german">Deutsch</option>
+        </select>
+    </p>
+    <p>
         <span data-i18n="today-is"> </span> <span id="day-name"></span><br />
         <small data-i18n="last-updated"></small>: <small id="last-updated"></small>
+        <input type="button" id="load-day" data-i18n="update" />
     </p>
-    <select id="language">
-        <option value="en" data-i18n="english">English</option>
-        <option value="sv" data-i18n="swedish">Svenska</option>
-        <option value="de" data-i18n="german">Deutsch</option>
-    </select>
 </body>
 </html>

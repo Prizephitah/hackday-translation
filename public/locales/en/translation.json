@@ -11,5 +11,7 @@
   "saturday": "Saturday",
   "sunday": "Sunday",
   "today-is": "Today is",
-  "last-updated": "Last updated"
+  "last-updated": "Last updated",
+  "update": "Update",
+  "selected-language": "Selected language"
 }

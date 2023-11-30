@@ -11,5 +11,7 @@
   "saturday": "lördag",
   "sunday": "söndag",
   "today-is": "Idag är det",
-  "last-updated": "Senast uppdaterad"
+  "last-updated": "Senast uppdaterad",
+  "update": "Uppdatera",
+  "selected-language": "Valt språk"
 }
