@@ -1,0 +1,14 @@
+{
+  "public": "public",
+  "headers": [
+    {
+      "source": "**/*.cjs",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/javascript"
+        }
+      ]
+    }
+  ]
+}
